@@ -170,3 +170,4 @@ print(f'igualdade {5 == 5}')
 print(f'diferença {4 != 5}')
 
 # %%
+ 
