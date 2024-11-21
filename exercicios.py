@@ -100,4 +100,55 @@ n1 = float(input('Digite o raio do circulo: '))
 r = f'A área do circulo é de: {(n1 / 3.14) ** 0.5}'
 
 print(r)
+
+#STRING
+# %%
+'''
+11. Escreva um programa que receba uma string do usuário e a converta para maiúsculas.
+'''
+str1 = input('Digite o valor que deseja converter para maiúsculo: ')
+
+r = f'Valor em maiúscula: {str1.upper()}'
+
+print(r)
+# %%
+'''
+12. Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
+'''
+str1 = input('Digite seu nome completo: ')
+
+r = f'Valor em minuscula: {str1.lower()}'
+
+print(r)
+# %%
+'''
+13. Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
+'''
+str1 = input('Digite uma frase: ')
+
+r = f'Valor sem espaços no inicio e fim: {str1.strip()}'
+
+print(r)
+# %%
+'''
+14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
+'''
+str1 = input('Digite uma data: ')
+lista = str1.split('/')
+
+r = f'Dia: {lista[0]} \nMês: {lista[1]} \nAno: {lista[2]}'
+
+print(r)
+# %%
+'''
+15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
+'''
+
+str1 = input('Digite uma palavra: \n')
+str2 = input('Digite otra palavra: \n')
+
+r = f'{str1 + str2}'
+
+print(r)
+
 # %%
