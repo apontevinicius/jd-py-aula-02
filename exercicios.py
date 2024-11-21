@@ -151,4 +151,22 @@ r = f'{str1 + str2}'
 
 print(r)
 
+#BOOL
+# %%
+'''
+16. Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
+17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
+18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
+19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
+20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
+'''
+v1 = True
+v2 = False
+
+print(f'and {v1 and v2}')
+print(f'or {v1 or v2}')
+print(f'invertendo valor {not v1}')
+print(f'igualdade {5 == 5}')
+print(f'diferença {4 != 5}')
+
 # %%
