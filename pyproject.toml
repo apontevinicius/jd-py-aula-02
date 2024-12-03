@@ -1,12 +1,13 @@
 [tool.poetry]
-name = "jd-py-aula-02"
+name = "aula-02"
 version = "0.1.0"
 description = ""
-authors = ["apontevinicius <apontevinicius@gmail.com>"]
+authors = ["Vinicius Aponte <apontevinicius@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
+pandas = "^2.2.3"
 ipykernel = "^6.29.5"
 
 
